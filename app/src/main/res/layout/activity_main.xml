@@ -1,0 +1,51 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView android:id="@+id/trackName"
+        android:text="No Track Selected"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/timeDisplay"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="00:00 / 00:00"
+        android:layout_marginBottom="16dp"/>
+
+    <Button android:id="@+id/buttonPick"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Pick Audio File" />
+
+    <Button android:id="@+id/buttonPlay"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Play" />
+
+    <Button android:id="@+id/buttonPause"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Pause" />
+
+    <Button android:id="@+id/buttonLoop"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Loop OFF" />
+
+    <Button android:id="@+id/buttonShuffle"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Shuffle OFF" />
+</LinearLayout>
